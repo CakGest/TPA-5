@@ -1,0 +1,202 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(62, 172, 58, 0.998);
+}
+
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+}
+
+.todo-form input {
+  flex: 1;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px 0 0 5px;
+}
+
+.todo-form button {
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.filter-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.filter-buttons span {
+  margin-right: 10px;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  border: none;
+  background-color: transparent;
+  color: #3f51b5;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  font-weight: bold;
+}
+
+.todo-list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo-list li .buttons {
+  margin-left: auto;
+}
+
+.todo-list li .buttons button {
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  color: #3f51b5;
+  cursor: pointer;
+}
+
+.todo-list li .buttons .edit-button {
+  margin-right: 10px;
+}
+
+.todo-list li .buttons .remove-button {
+  color: #ff1744;
+}
+.todo-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-form input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  margin-right: 5px;
+  background-color: #fff;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.todo-list li.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+.edit-button,
+.remove-button {
+  padding: 4px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button:hover,
+.remove-button:hover {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.edit-button:focus,
+.remove-button:focus {
+  outline: none;
+}
+
+.edit-button:focus svg,
+.remove-button:focus svg {
+  color: #4caf50;
+}
